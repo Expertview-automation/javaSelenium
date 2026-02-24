@@ -47,6 +47,9 @@ public class onlineTest {
           driver.findElement(By.xpath("//label[text()='User Role']/ancestor::div[contains(@class,'oxd-input-group oxd-input-field-bottom-space')]//i")).click();
           driver.findElement(By.xpath("//span[text()='ESS']")).click();
           driver.findElement(By.xpath("//input[@placeholder='Type for hints...']")).sendKeys("Ranga  Akunuri");
+          driver.findElement(By.xpath("//label[text()='Status']//ancestor::div[contains(@class,'oxd-input-group oxd-input-field-bottom-space')]//i")).click();
+          driver.findElement(By.xpath("//div[text()='Enabled']")).click();
+          driver.findElement(By.xpath(""));
 
        }
 
